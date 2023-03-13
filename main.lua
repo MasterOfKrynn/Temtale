@@ -4,7 +4,7 @@
 require "util"
 src = require "load_src"
 require "maps"
-draw, update, keypressed = {}, {}, {}
+draw, update, keypressed, init = {}, {}, {}, {}
 require "title"
 require "walking"
 
@@ -15,7 +15,8 @@ title = "TemTale"
 mode = "title"
 w, h = love.graphics.getWidth(), love.graphics.getHeight()
 --tile width
-tw = 16
+tw = 16 -- ??
+-- universal speed
 speed=1
 
 -- setup

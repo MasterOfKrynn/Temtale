@@ -1,5 +1,9 @@
 room = 1
 
+init.walking = function(m)
+
+end
+
 function render_tile(t, x, y)
     -- if t special then
 

@@ -1,0 +1,1 @@
+-- pause music, in walking, BEFORE chaning mode.

@@ -1,5 +1,9 @@
 title_select = {1, 1}
 
+init.title = function(m)
+    
+end
+
 draw.title = function()
     love.graphics.scale(1,1)
     love.graphics.setColor(1,1,1)
@@ -50,6 +54,7 @@ keypressed.title = function(k)
        elseif title_select[1] == 2 then
             -- settings, does not change mode
        else
+
             change_mode("walking")
        end
     end
