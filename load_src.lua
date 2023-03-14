@@ -38,6 +38,7 @@ add_music("temvillage")
 add_music("waterfall")
 add_music("startmenu")
 add_music("onceuponatime")
+add_music("uwasotemperate")
 
 for i = 0, 5 do
     src.spr.tiles[i] = {}

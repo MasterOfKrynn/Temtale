@@ -7,17 +7,20 @@ require "maps"
 draw, update, keypressed, init = {}, {}, {}, {}
 require "title"
 require "walking"
+require "cutscenes"
 
 -- game init --
 
 -- vars
 title = "TemTale"
-mode = "title"
+mode = "cutscenes"
+-- mode = "title"
 w, h = love.graphics.getWidth(), love.graphics.getHeight()
 --tile width
 tw = 16 -- ??
 -- universal speed
 speed=1
+current_audio = nil
 
 -- setup
 love.window.setTitle(string.upper(title))
@@ -29,7 +32,10 @@ love.window.setTitle(string.upper(title))
 love.graphics.setFont(src.fonts.dmono)
 
 
-function general_draw() end
+function general_draw() 
+    -- trouble shooting
+    love.graphics.print('')
+end
 
 -- update
 function general_update()

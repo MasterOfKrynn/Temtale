@@ -56,8 +56,7 @@ draw.walking = function()
     local finalspr = (tem.name .. locald .. tostring(number))
     love.graphics.draw(src.spr[finalspr], localx, tem.y, 0, flip, 1)
 
-    -- trouble shooting
-    love.graphics.print('')
+    general_draw()
 
     love.graphics.scale(1,1)
 end
